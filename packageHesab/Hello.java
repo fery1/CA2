@@ -60,7 +60,7 @@ public class Hello {
                         System.out.println("customerNumber : " + customerNumber);
                         System.out.println("depositType : " + depositType);
                         System.out.println("depositBalance : " + depositBalance);
-                        System.out.println("durationInDays : " + durationInDays);
+                       // System.out.println("durationInDays : " + durationInDays);
                         users.add(ReflectApp.reflectApp(customerNumber,depositType,depositBalance,durationInDays));
                     }
                 }
